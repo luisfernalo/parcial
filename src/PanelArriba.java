@@ -1,11 +1,9 @@
-<<<<<<< HEAD
+
 import javax.swing.JButton;
-=======
 import java.awt.BorderLayout;
 
 import javax.swing.BorderFactory;
 import javax.swing.JOptionPane;
->>>>>>> master
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
@@ -13,13 +11,10 @@ import javax.swing.border.Border;
 import javax.swing.table.DefaultTableModel;
 
 public class PanelArriba  extends JPanel  {
-<<<<<<< HEAD
 	private VentanaInicial referenciaVentaPrincipal;
 	public PanelArriba(VentanaInicial _referenciaVentaPrincipal) {
 		referenciaVentaPrincipal = _referenciaVentaPrincipal;
  }
-}	
-=======
 	private DefaultTableModel referencia_table_model;
 	public String[] columnas = {"Nombre","Apellido","Tipo","Numero", "Edad", "Peso", "Altura", "Celular","Direccion", "Puesto"};
 	private Object[][]tableContents;
@@ -57,4 +52,3 @@ public class PanelArriba  extends JPanel  {
 		}
 	}
 }
->>>>>>> master

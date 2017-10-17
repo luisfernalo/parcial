@@ -25,12 +25,12 @@ public class PanelCentro  extends JPanel {
 		this.add(new JScrollPane(tabla_pajaro), BorderLayout.WEST);
 	}
 	
-<<<<<<< HEAD
+
 	private VentanaInicial referenciaVentaPrincipal;
 	public PanelCentro(VentanaInicial _referenciaVentaPrincipal) {
 		referenciaVentaPrincipal = _referenciaVentaPrincipal;
  }
-=======
+
 	public void refrescarLista(ArrayList<Pajaro> refrescarArrayList) {
 		if(refrescarArrayList.isEmpty()) {
 			JOptionPane.showMessageDialog(null, "no hay elementos");
@@ -53,5 +53,4 @@ public class PanelCentro  extends JPanel {
 		}
 	}
 
->>>>>>> master
 }
