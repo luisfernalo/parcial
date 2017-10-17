@@ -32,6 +32,13 @@ public class VentanaInicial extends JFrame {
 	private void componentes() {
 		PanelIzq obj_panelIzq = new PanelIzq(this);
 		add(obj_panelIzq,BorderLayout.WEST);
+		
+		PanelArriba obj_panelArri = new PanelArriba(this);
+		add(obj_panelArri,BorderLayout.NORTH);
+		
+		PanelCentro obj_panelCentro = new PanelCentro(this);
+		add(obj_panelCentro,BorderLayout.CENTER);
+		
 	}
 	
 	
