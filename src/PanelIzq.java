@@ -8,8 +8,8 @@ public class PanelIzq extends JPanel {
 private VentanaInicial referenciaVentaPrincipal;
 	private GridBagConstraints c;
 	private Insets in;
-	private JLabel JLnombre,JLapellido,JLtipo,JLnumero,JLedad,JLpeso,JLaltura,JLcelular,JLdirrecion,JLpuesto;
-	private JTextField JTnombre,JTapellido,JTtipo,JTnumero,JTedad,JTpeso,JTaltura,JTcelular,JTdirrecion,JTpuesto;
+	private JLabel JLnombre,JLapellido,JLtipo,JLnumero,JLedad,JLpeso,JLaltura,JLcelular,JLdireccion,JLpuesto;
+	private JTextField JTnombre,JTapellido,JTtipo,JTnumero,JTedad,JTpeso,JTaltura,JTcelular,JTdireccion,JTpuesto;
 	JButton Bagregar;
 	public PanelIzq(VentanaInicial _referenciaVentaPrincipal) {
 		referenciaVentaPrincipal = _referenciaVentaPrincipal;
@@ -29,8 +29,8 @@ private VentanaInicial referenciaVentaPrincipal;
 		
 		JTnombre = new JTextField();
 		c= new GridBagConstraints();
-		c.gridx=0;
-		c.gridy=1;
+		c.gridx=1;
+		c.gridy=0;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets (5,10,5,10);
 		c.insets = in ;
@@ -39,7 +39,7 @@ private VentanaInicial referenciaVentaPrincipal;
 		JLapellido= new JLabel("Apellido:");
 		c = new GridBagConstraints();
 		c.gridx=0;
-		c.gridy=2;
+		c.gridy=1;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets(5,10,5,10);
 		c.insets= in;
@@ -47,8 +47,8 @@ private VentanaInicial referenciaVentaPrincipal;
 		
 		JTapellido = new JTextField();
 		c= new GridBagConstraints();
-		c.gridx=0;
-		c.gridy=3;
+		c.gridx=1;
+		c.gridy=1;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets (5,10,5,10);
 		c.insets = in ;
@@ -57,7 +57,7 @@ private VentanaInicial referenciaVentaPrincipal;
 		JLtipo= new JLabel("Nombre:");
 		c = new GridBagConstraints();
 		c.gridx=0;
-		c.gridy=4;
+		c.gridy=2;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets(5,10,5,10);
 		c.insets= in;
@@ -65,8 +65,8 @@ private VentanaInicial referenciaVentaPrincipal;
 		
 		JTtipo = new JTextField();
 		c= new GridBagConstraints();
-		c.gridx=0;
-		c.gridy=5;
+		c.gridx=1;
+		c.gridy=2;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets (5,10,5,10);
 		c.insets = in ;
@@ -75,7 +75,7 @@ private VentanaInicial referenciaVentaPrincipal;
 		JLnumero= new JLabel("Nombre:");
 		c = new GridBagConstraints();
 		c.gridx=0;
-		c.gridy=6;
+		c.gridy=3;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets(5,10,5,10);
 		c.insets= in;
@@ -83,8 +83,8 @@ private VentanaInicial referenciaVentaPrincipal;
 		
 		JTnumero = new JTextField();
 		c= new GridBagConstraints();
-		c.gridx=0;
-		c.gridy=7;
+		c.gridx=1;
+		c.gridy=3;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets (5,10,5,10);
 		c.insets = in ;
@@ -93,7 +93,7 @@ private VentanaInicial referenciaVentaPrincipal;
 		JLedad= new JLabel("Nombre:");
 		c = new GridBagConstraints();
 		c.gridx=0;
-		c.gridy=8;
+		c.gridy=4;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets(5,10,5,10);
 		c.insets= in;
@@ -101,8 +101,8 @@ private VentanaInicial referenciaVentaPrincipal;
 		
 		JTedad = new JTextField();
 		c= new GridBagConstraints();
-		c.gridx=0;
-		c.gridy=9;
+		c.gridx=1;
+		c.gridy=4;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets (5,10,5,10);
 		c.insets = in ;
@@ -111,7 +111,7 @@ private VentanaInicial referenciaVentaPrincipal;
 		JLpeso= new JLabel("Nombre:");
 		c = new GridBagConstraints();
 		c.gridx=0;
-		c.gridy=10;
+		c.gridy=5;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets(5,10,5,10);
 		c.insets= in;
@@ -119,13 +119,84 @@ private VentanaInicial referenciaVentaPrincipal;
 		
 		JTpeso = new JTextField();
 		c= new GridBagConstraints();
-		c.gridx=0;
-		c.gridy=1;
+		c.gridx=1;
+		c.gridy=5;
 		c.fill = GridBagConstraints.BOTH;
 		in = new Insets (5,10,5,10);
 		c.insets = in ;
 		add(JTpeso,c);
 		
+		JLaltura= new JLabel("Nombre:");
+		c = new GridBagConstraints();
+		c.gridx=0;
+		c.gridy=6;
+		c.fill = GridBagConstraints.BOTH;
+		in = new Insets(5,10,5,10);
+		c.insets= in;
+		add(JLaltura,c);
+		
+		JTaltura = new JTextField();
+		c= new GridBagConstraints();
+		c.gridx=1;
+		c.gridy=6;
+		c.fill = GridBagConstraints.BOTH;
+		in = new Insets (5,10,5,10);
+		c.insets = in ;
+		add(JTaltura,c);
+		
+		JLcelular= new JLabel("Nombre:");
+		c = new GridBagConstraints();
+		c.gridx=0;
+		c.gridy=7;
+		c.fill = GridBagConstraints.BOTH;
+		in = new Insets(5,10,5,10);
+		c.insets= in;
+		add(JLcelular,c);
+		
+		JTcelular = new JTextField();
+		c= new GridBagConstraints();
+		c.gridx=1;
+		c.gridy=7;
+		c.fill = GridBagConstraints.BOTH;
+		in = new Insets (5,10,5,10);
+		c.insets = in ;
+		add(JTcelular,c);
+		
+		JLdireccion= new JLabel("Nombre:");
+		c = new GridBagConstraints();
+		c.gridx=0;
+		c.gridy=8;
+		c.fill = GridBagConstraints.BOTH;
+		in = new Insets(5,10,5,10);
+		c.insets= in;
+		add(JLdireccion,c);
+		
+		JTdireccion = new JTextField();
+		c= new GridBagConstraints();
+		c.gridx=1;
+		c.gridy=8;
+		c.fill = GridBagConstraints.BOTH;
+		in = new Insets (5,10,5,10);
+		c.insets = in ;
+		add(JTdireccion,c);
+	
+		JLpuesto= new JLabel("Nombre:");
+		c = new GridBagConstraints();
+		c.gridx=0;
+		c.gridy=9;
+		c.fill = GridBagConstraints.BOTH;
+		in = new Insets(5,10,5,10);
+		c.insets= in;
+		add(JLnombre,c);
+		
+		JTpuesto = new JTextField();
+		c= new GridBagConstraints();
+		c.gridx=1;
+		c.gridy=9;
+		c.fill = GridBagConstraints.BOTH;
+		in = new Insets (5,10,5,10);
+		c.insets = in ;
+		add(JTpuesto,c);
 		
 	}
 }
