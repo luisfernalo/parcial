@@ -31,7 +31,7 @@ public class PanelCentro  extends JPanel {
 		referenciaVentaPrincipal = _referenciaVentaPrincipal;
  }
 
-	public void refrescarLista(ArrayList<Pajaro> refrescarArrayList) {
+	public void refrescarListaplata(ArrayList<Pajaro> refrescarArrayList) {
 		if(refrescarArrayList.isEmpty()) {
 			JOptionPane.showMessageDialog(null, "no hay elementos");
 		}else {

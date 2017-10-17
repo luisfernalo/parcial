@@ -212,7 +212,7 @@ private VentanaInicial referenciaVentaPrincipal;
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				//referenciaVentaPrincipal.agregarPersona(JTnombre.getText(),JTedad.getText());
+				referenciaVentaPrincipal.agregarPersona(JTnombre.getText(),JTapellido.getText(),JTtipo.getText(),JTnumero.getText(),JTedad.getText(),JTpeso.getText(),JTaltura.getText(),JTcelular.getText(),JTdireccion.getText(),JTpuesto.getText());
 				JOptionPane.showMessageDialog(null, "Pajaro agregado", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
 			}
 			

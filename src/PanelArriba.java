@@ -30,7 +30,7 @@ public class PanelArriba  extends JPanel  {
 		this.add(new JScrollPane(tabla_pajaro), BorderLayout.WEST);
 	}
 	
-	public void refrescarLista(ArrayList<Pajaro> refrescarArrayList) {
+	public void refrescarListaoro(ArrayList<Pajaro> refrescarArrayList) {
 		if(refrescarArrayList.isEmpty()) {
 			JOptionPane.showMessageDialog(null, "no hay elementos");
 		}else {
