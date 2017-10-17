@@ -27,7 +27,13 @@ public class VentanaInicial extends JFrame {
 		return this;
 	}
 
-
+	public void agregarpersona(String _nombre,String _apellido,String _tipo,String _numero,String _edad,String _peso,String _altura,String _celular,String _direccion,String _puesto) {
+		Persona obj = new Persona(_nombre, _apellido, _tipo, _numero, _edad, _peso, _altura, _celular, _direccion, _puesto);
+		listapersona.add(obj);
+		if(_puesto=="oro") {
+			
+		}
+	}
 
 	private void componentes() {
 		PanelIzq obj_panelIzq = new PanelIzq(this);
